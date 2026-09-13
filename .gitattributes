@@ -1,0 +1,16 @@
+# Configuration for git attributes
+# Project-specific overrides
+# Default behavior
+*.ts linguist-detectable
+* text=auto
+
+*.json linguist-detectable=false
+
+public/index.html linguist-vendored
+
+*.map linguist-generated
+src/**/*.tsx linguist-detectable
+*.md linguist-documentation
+*.ico binary
+public/*.html linguist-vendored
+Cargo.lock linguist-generated
