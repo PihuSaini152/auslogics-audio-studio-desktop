@@ -1,0 +1,4 @@
+*.log
+.pnpm-store/
+.env
+node_modules/
